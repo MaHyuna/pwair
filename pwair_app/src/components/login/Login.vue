@@ -1,7 +1,7 @@
 <template>
   <div>
-        <LoginForm></LoginForm>
         <LoginHeader></LoginHeader>
+        <LoginForm></LoginForm>
         <LoginSNS></LoginSNS>
   </div>
 </template>
@@ -16,7 +16,12 @@ export default {
       LoginForm,
       LoginHeader,
       LoginSNS,
-  }
+  },
+  
 }
 </script>
+<style>
+body { background: pink; text-align: center; }
+</style>
+
 
